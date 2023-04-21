@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <h1>회원가입</h1>
+
+      <form action="#" method="post" name="join">
+        <fieldset>
+          <legend>회원가입</legend>
+          <ul>
+            <li>
+              <label for="id">회원가입</label>
+              <input
+                type="text"
+                name="id"
+                id="id"
+                autofocus
+                placeholder="아이디를 입력하세요"
+              />
+              <input type="button" value="중복확인" />
+            </li>
+            <li>
+              <label for="pw">비밀번호</label>
+              <input
+                type="password"
+                name="password"
+                id="pw"
+                placeholder="비밀번호를 입력하세요"
+              />
+            </li>
+            <li>
+              <span>성별</span>
+              <label for="woman">여성</label>
+              <input type="radio" name="gender" id="woman" />
+              <label for="man">남성</label>
+              <input type="radio" name="gender" id="man" />
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>개인정보</legend>
+          <ul>
+            <li>
+              <label for="address">주소</label>
+              <input type="text" name="address" id="address" />
+              <input type="button" value="주소찾기" />
+            </li>
+            <li>
+              <label for="tel">전화번호</label>
+              <select name="tel" id="tel">
+                <option value="010" selected>010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+              </select>
+              <input type="tel" name="tel2" id="" />
+              <input type="tel" name="tel3" id="" />
+            </li>
+            <li>
+              <label for="email">이메일</label>
+              <input type="email" name="email" id="email" required />
+            </li>
+            <li>
+              <span>취미</span><br />
+              <label for="travel">여행</label>
+              <input type="checkbox" name="hobby" id="travel" />
+              <label for="shopping">쇼핑</label>
+              <input type="checkbox" name="hobby" id="shopping" />
+              <label for="game">게임</label>
+              <input type="checkbox" name="hobby" id="game" />
+              <label for="ect">기타</label>
+              <input type="checkbox" name="hobby" id="ect" />
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>introduction</legend>
+          <div>
+            <label for="intro">자기소개</label>
+            <textarea name="intro" id="intro" cols="20" rows="5"></textarea>
+          </div>
+          <div>
+            <label for="number">숫자</label>
+            <input type="number" name="number" id="number" step="2" />
+          </div>
+        </fieldset>
+        <input type="submit" value="완료" />
+      </form>
+    </div>
+  </body>
+</html>
