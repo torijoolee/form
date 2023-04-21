@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+#wrap {
+  width: 800px;
+  border: 1px solid olive;
+  padding: 10px;
+}
+h1 {
+  background: olive;
+  color: white;
+  text-align: center;
+}
+fieldset {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid olive;
+}
+fieldset legend {
+  color: olive;
+  font-size: 20px;
+}
+
+form ul li,
+#wrap div {
+  background-color: #eee;
+  margin: 5px;
+  padding: 5px;
+}
+input,
+textarea {
+  background-color: #fff;
+  border: none;
+  padding: 3px;
+}
+input[type="button"],
+input[type="submit"] {
+  background-color: olive;
+  color: white;
+}
